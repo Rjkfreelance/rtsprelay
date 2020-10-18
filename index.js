@@ -5,8 +5,8 @@ const { proxy } = require('rtsp-relay')(app);
 const handler1 = proxy({
   //url: `rtsp://admin:admin@10.0.1.2:554/feed`,
   //url: `rtsp://202.50.121.42/live/ch00_0`,
-  url:`rtsp://116.197.222.158/live/ch00_0`,
-    
+  //url:`rtsp://116.197.222.158/live/ch00_0`,
+   url:`rtsp://tester:AsDfJkL-1234@clawcam.thddns.net:9773/cam/realmonitor?channel=1&subtype=0`, 
   // if your RTSP stream need credentials, include them in the URL as above
   verbose: false,
  
